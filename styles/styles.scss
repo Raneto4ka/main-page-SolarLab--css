@@ -40,7 +40,6 @@ header {
 
         &--img {
             margin-right: 0.5rem;
-            fill: $white;
         }
     }
 
@@ -56,14 +55,8 @@ header {
 
         &--img {
             margin-left: 0.5rem;
-            fill: $white;
         }
     }
-}
-
-.header-panel-wrapper {
-    padding: 1.5rem 0;
-    border-bottom: 1px solid $blue-gray-200;
 }
 
 .header-panel {
@@ -72,6 +65,8 @@ header {
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid $blue-gray-200;
 
     &-title {
         margin-right: 0.5rem;
@@ -172,7 +167,6 @@ header {
             }
 
             &--img {
-                fill: $white;
                 margin-left: 0.5rem;
             }
         }
