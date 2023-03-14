@@ -139,3 +139,10 @@ table {
 a, a:hover, a:visited, a:active, a:focus{
 	outline: none;
 }
+
+button {
+    padding: 0;
+    font-family: inherit;
+    border: none;
+    background-color: transparent;
+}
